@@ -1,0 +1,69 @@
+html, body, #outer {
+	width:100%;
+	height: 100%;
+  display: grid;
+  align-items: center;
+}
+body{
+  background: url("https://source.unsplash.com/a5XN1f09_ek") no-repeat center center fixed;
+  background-size: cover;
+  font-family: helvetica, arial;
+  color: white;
+}
+
+#quote-box{
+  align-self: end;
+}
+#social, #new, .col-lg-12, #footer {
+  text-align: center;
+}
+#quote-box {
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 10px;
+}
+#author{
+  color: white;
+}
+#tweet-quote i{
+  margin-top: 15px;
+  font-size: 2em;
+}
+
+#text {
+  font-size: 1.25em;
+}
+#author {
+  font-size: 1em;
+  font-style: italic;
+}
+
+.col-lg-12 {
+  border-radius: 10px;
+}
+#footer {
+  background: rgba(50, 50, 50, 0.3);
+  padding: 1rem 0;
+  font-weight: 400;
+  align-self: end;
+}
+
+#footer p {
+  margin: 0;
+  font-size: 0.9em;
+}
+#footer p:first-child{
+  font-weight: bold;
+}
+.link, .link:link, .link:visited{
+  color: white;
+  text-decoration: underline;
+
+}
+img{
+  width:30px;
+  height: auto;
+}
+   
+
